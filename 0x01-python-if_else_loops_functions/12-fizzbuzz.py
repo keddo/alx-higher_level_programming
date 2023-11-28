@@ -8,12 +8,12 @@ def fizzbuzz():
     """
     accomulator = f''
     for num in range(1, 101):
-       if num % 3 == 0 and num % 5 == 0:
-           accomulator += "FizzBuzz "
-       elif num % 5 == 0:
-           accomulator += "Buzz "
-       elif num % 3 == 0:
-           accomulator += f'Fizz '
-       else:
-           accomulator += f'{num} '
+        if num % 3 == 0 and num % 5 == 0:
+            accomulator += "FizzBuzz "
+        elif num % 5 == 0:
+            accomulator += "Buzz "
+        elif num % 3 == 0:
+            accomulator += f'Fizz '
+        else:
+            accomulator += f'{num} '
     print(accomulator, end="")
