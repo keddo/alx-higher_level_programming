@@ -1,7 +1,7 @@
 0x08. Python - More Classes and Objects
 =======================================
 
--   By Kedir A.
+-   By Guillaume
 -   Weight: 1
 
 
