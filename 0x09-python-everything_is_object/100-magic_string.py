@@ -5,11 +5,6 @@ Magic string
 """
 
 def magic_string(l=[]):
-    """
-    Brief description of what the function does.
-
-    More detailed explanation, including information about parameters
-    and return values if applicable.
-    """
+    """Omit a period in the docstring as an exception"""
     l += ["BestSchool"]
     return ", ".join(l)
