@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """
-magic string
+Magic string
 
 """
 
 def magic_string(l=[]):
+    """Functions to create magic string"""
     l += ["BestSchool"]
     return ", ".join(l)
